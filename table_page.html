@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #fff8e1; /* Warna krem lembut */
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+        .top-nav {
+            background-color: blue;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-btn {
+            background-color: white;
+            border: 2px solid black;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .nav-btn:hover {
+            background-color: blue;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid blue;
+        }
+        th {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="top-nav">
+        <a href="halaman2-Article.html" class="nav-btn">Previous Page</a>
+        <a href="img.html" class="nav-btn">Next Page</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Jadwal Kuliah</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Jam</th>
+                    <th>Mata Kuliah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"><strong>Senin</strong></td>
+                    <td>10:10 - 11:50</td>
+                    <td>Manajemen Proyek Perangkat Lunak (C)</td>
+                </tr>
+                <tr>
+                    <td>13:00 - 14:40</td>
+                    <td>Jaringan Komputer (D31)</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><strong>Selasa</strong></td>
+                    <td>10:10 - 11:50</td>
+                    <td>Sistem Operasi (C)</td>
+                </tr>
+                <tr>
+                    <td>13:00 - 14:40</td>
+                    <td>Pemrosesan Data Terdistribusi (C)</td>
+                </tr>
+                <tr>
+                    <td>15:00 - 16:40</td>
+                    <td>Pemrograman Berorientasi Objek (F)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><strong>Rabu</strong></td>
+                    <td>08:10 - 09:50</td>
+                    <td>Komunikasi Data (C)</td>
+                </tr>
+                <tr>
+                    <td>10:10 - 12:00</td>
+                    <td>Pemrograman Mobile (D)</td>
+                </tr>
+                <tr>
+                    <td><strong>Kamis</strong></td>
+                    <td>13:00 - 15:30</td>
+                    <td>Pemrograman Web (F)</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><strong>Jumat</strong></td>
+                    <td>08:10 - 09:50</td>
+                    <td>Teknik Digital (C)</td>
+                </tr>
+                <tr>
+                    <td>10:10 - 11:50</td>
+                    <td>Struktur Data (E)</td>
+                </tr>
+                <tr>
+                    <td>13:00 - 15:30</td>
+                    <td>Basis Data (B)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
